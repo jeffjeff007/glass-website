@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgba(0, 128, 128, 0.7), rgba(0, 255, 255, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(28, 113, 146);
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+    font-family: ubuntu, sans-serif;
+}
+
+h2,
+p {
+    color: #658ec6;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+h3 {
+    color: rgb(28, 113, 146);
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+    border-radius: 50%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 15%;
+    border-radius: 50%;
+}
+
+#avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 45%;
+    margin-left : 2%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+}
+
+.mygames {
+    width: 50px;
+    height: 50px;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.games {
+    flex: 2;
+}
+
+ .link {
+    display: flex;
+    margin: 0.5rem;
+    padding: 1rem 3rem;
+    align-items: center;
+    font-family: prompt;
+ }
+
+ .membership {
+    background: linear-gradient(to right top, rgba(0, 128, 128, 0.7), rgba(0, 255, 255, 0.7));
+    border-radius: 1rem;
+    color: antiquewhite;
+    padding: 1rem;
+    font-family: prompt;
+ }
+
+ .membership p{
+    color: white;
+    font-weight: 400;
+ }
+
+/* GAMES SECTION*/
+
+.status {
+    margin-bottom: 2rem;
+}
+
+.status input {
+    border: none;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+
+.percentage {
+    color: rgb(28, 113, 146);
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.7);
+}
