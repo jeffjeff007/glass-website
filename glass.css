@@ -110,6 +110,11 @@ h3 {
     padding: 1rem 3rem;
     align-items: center;
     font-family: prompt;
+    cursor: pointer;
+ }
+
+ .link:hover {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
  }
 
  .membership {
@@ -118,11 +123,16 @@ h3 {
     color: antiquewhite;
     padding: 1rem;
     font-family: prompt;
+    cursor: pointer;
  }
 
  .membership p{
     color: white;
     font-weight: 400;
+ }
+
+ .membership p:hover {
+    text-decoration: underline;
  }
 
 /* GAMES SECTION*/
@@ -160,4 +170,5 @@ h3 {
     margin: 2rem 0rem;
     padding: 1rem;
     box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
